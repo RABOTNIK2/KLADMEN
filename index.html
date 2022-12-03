@@ -1,0 +1,344 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Кулебяка</title>
+  </head>
+  <body>
+      <div class="container ">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                  <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Боярчук Александр</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                          <a class="nav-link " aria-current="page" href="#scrollspyHeading1">Главная </a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#scrollspyHeading2">Обо мне</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Прайс
+                          </a>
+                          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Сайт-визитка</a></li>
+                            <li><a class="dropdown-item" href="#">Интернет-магазин</a></li>
+                            <li><a class="dropdown-item" href="#">Корпоративный сайт</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Другое</a></li>
+                          </ul>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link " href="#scrollspyHeading3"  aria-disabled="true">Контакты</a>
+                        </li>
+                      </ul>
+                      <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Поиск" aria-label="">
+                        <button class="btn btn-outline-warning" type="submit">Найти</button>
+                      </form>
+                    </div>
+                  </div>
+                </nav>          
+                <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+                  <h1 class="mt-5 text-center mb-5" id="scrollspyHeading1">Главная</h1>
+                  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active d-flex">
+                        <img src="img/1460950266_0_534_4448_3036_1920x0_80_0_0_696567a3315d8284e4459183fe797344.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Послание на день</h5>
+                          <p>Всё норм будет</p>
+                          <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                            Испытать удачу
+                          </button>
+                          <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title text-black" id="staticBackdropLabel">Улыбнись</h5>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body text-black">
+                                  Сейчас день
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                                  
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          
+                          
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/22379869_0_0_1920_1080_1920x0_80_0_0_497731bb1ae629aac01dba0838fa71b2.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Новости</h5>
+                          <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                            <div class="modal-dialog modal-dialog-centered">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title text-black" id="exampleModalToggleLabel">Хорошая новость</h5>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body text-black">
+                                  Мы живы
+                                </div>
+                                <div class="modal-footer">
+                                  <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">Открыть плохую новость</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+                            <div class="modal-dialog modal-dialog-centered">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title text-black" id="exampleModalToggleLabel2">Плохая новость</h5>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body text-black">
+                                  Цены высокие
+                                </div>
+                                <div class="modal-footer">
+                                  <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal" data-bs-dismiss="modal">Вернуться к хорошей</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <a class="btn btn-success" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Хорошая новость</a>
+                          <div class="modal fade" id="exampleModalToggle3" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                            <div class="modal-dialog modal-dialog-centered">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title text-black" id="exampleModalToggleLabel3">Плохая новость</h5>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body text-black">
+                                  Цены высокие
+                                </div>
+                                <div class="modal-footer">
+                                  <button class="btn btn-primary" data-bs-target="#exampleModalToggle4" data-bs-toggle="modal" data-bs-dismiss="modal">Открыть хорошую</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="modal fade" id="exampleModalToggle4" aria-hidden="true" aria-labelledby="exampleModalToggleLabel4" tabindex="-1">
+                            <div class="modal-dialog modal-dialog-centered">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title text-black" id="exampleModalToggleLabel4">Хорошая новость</h5>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body text-black">
+                                  Мы живы
+                                
+                                </div>
+                                <div class="modal-footer">
+                                  <button class="btn btn-primary" data-bs-target="#exampleModalToggle3" data-bs-toggle="modal" data-bs-dismiss="modal">Вернуться к плохой</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <a class="btn btn-danger" data-bs-toggle="modal" href="#exampleModalToggle3" role="button">Плохая новость</a>
+                         
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/1460950266_0_534_4448_3036_1920x0_80_0_0_696567a3315d8284e4459183fe797344.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Шутки кончились</h5>
+                          <button type="button" id="3123" class="btn btn-secondary text-center">Зато есть анекдот</button>
+                          
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Предыдущий</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Следующий</span>
+                    </button>
+                  </div>
+                  
+                  <h2 id="scrollspyHeading2" class="text-center text-dark mt-5">Обо мне </h2>
+                  <div class="card mb-3 mt-5" >
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img src="img/full-bb8244a7b2f769871d057defdf439d70.jpg" class="rounded-circle m-3 img-fluid rounded-start" alt="...">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title m-3">Так по чему же вы выберите меня?</h5>
+                          <p class="card-text m-3">Ну я там css знаю и Html вроде. Там ещё bootstrap и какой-то js </p>
+                          <button type="button" id="228" class="btn btn-secondary text-center">
+                            Заказать сайт 
+                          </button>
+                          
+                          
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <h2 class="text-center mt-5 ">Отзывы </h2>
+                  <div class="row mt-5">
+                    <div class="col-6" id="55" style="border:3px solid lightgray">
+                      <h3 class="text-left">Ольга гончарова</h3>
+                      <p class="text-left">Замечательно! И как вам только удалось сделать жидкий сайт. Всем рекомендую!</p>
+                      <button type="button" id="21-3" class="btn btn-secondary text-center"><img src="icons/icons8-палец-вверх-50.png" style="width: 50%;"></button>
+                      <button type="button" id="22-3" class="btn btn-secondary text-center"><img src="icons/icons8-отстой-50.png" style="width: 50%;"></button>
+                    </div>
+                    <div class="col-6" id="56" style="border:3px solid lightgray">
+                      <h3 class="text-left">Галина Крысоловная</h3>
+                      <p class="text-left">Я в восторге! Ещё никогда в моей жизни меня не травили во время создания сайта.</p>
+                      <button type="button" id="21-4" class="btn btn-secondary text-center"><img src="icons/icons8-палец-вверх-50.png" style="width: 50%;"></button>
+                      <button type="button" id="22-4" class="btn btn-secondary text-center"><img src="icons/icons8-отстой-50.png" style="width: 50%;"></button>
+                    </div>
+                  </div>
+                  <div class="row mt-5">
+                    <div class="col-6" id="57" style="border:3px solid lightgray">
+                      <h3 class="text-left">Петров Подзаборник</h3>
+                      <p class="text-left">Невероятно! Я думал что придётся платить деньги а отдал всего лишь 5 литров кваса</p>
+                      <button type="button" id="21-5" class="btn btn-secondary text-center"><img src="icons/icons8-палец-вверх-50.png" style="width: 50%;"></button>
+                      <button type="button" id="22-5" class="btn btn-secondary text-center"><img src="icons/icons8-отстой-50.png" style="width: 50%;"></button>
+                    </div>
+                    <div class="col-6 float-right" id=""58 style="border:3px solid lightgray">
+                      <h3 class="text-left">Валерий Квадратович</h3>
+                      <p class="text-left">Ужасно! Потребовал денег за такой фиговый сайт. Ни кому не советую</p>
+                      <button type="button" id="21-6" class="btn btn-secondary text-center"><img src="icons/icons8-палец-вверх-50.png" style="width: 50%;"></button>
+                      <button type="button" id="22-6" class=" ml-2 btn btn-secondary text-center"><img src="icons/icons8-отстой-50.png" style="width: 50%;"></button>
+                    </div>
+                  </div>
+                  <h1 class="text-center mb-5 mt-5">Прайс</h1>
+                  <table class="table table-striped table-hover">
+                    <thead>
+                      <tr>
+                        <th scope="col">Порядковый номер</th>
+                        <th scope="col">Тип сайта</th>
+                        <th scope="col">Цена</th>
+                        <th scope="col">Время разработки </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>Круглый</td>
+                        <td>20к кубков в БС</td>
+                        <td>2 часа</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>Квадратный</td>
+                        <td>5 литров кваса</td>
+                        <td>0 секунд</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td>Жидкий</td>
+                        <td>3 Китайских рабочих</td>
+                        <td>2 года</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <button type="button" id="34565" class="btn btn-secondary text-center  mt-3" >
+                    Заказать сайт 
+                  </button>
+                  
+                  
+                  
+                  <h2 id="scrollspyHeading3" class="text-center">Контакты</h2>
+                  <form class="row g-3 needs-validation mt-3 mb-3" novalidate>
+                    <div class="col-3">
+                      <label for="validationCustom01" class="form-label">Имя</label>
+                      <input type="text" class="form-control" id="validationCustom01" placeholder="Имя" value="" required>
+                      <div class="valid-feedback">
+                        Все хорошо!
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <label for="validationCustom02" class="form-label">Фамилия</label>
+                      <input type="text" class="form-control" placeholder="Фамилия" id="validationCustom02" value="" required>
+                      <div class="valid-feedback">
+                        Все хорошо!
+                      </div>
+                    </div>
+                  </form>
+                  <form class="row g-3 needs validation mt-3 mb-3" novalidate>
+                    <div class="col-6">
+                      <label for="validationCustom04" class="form-label">Тип сайта</label>
+                      <select class="form-select" id="validationCustom04" required>
+                        <option > Сайт-визитка</option>
+                        <option> Интернет-магазин</option>
+                        <option>Корпоративный сайт</option>
+                        <option>Другое</option>
+                      </select>
+                      <div class="invalid-feedback">
+                        Пожалуйста, выберите тип сайта.
+                      </div>
+                    </div>
+                  </form>
+                  <form class="row g-3 needs-validation mt-3 mb-3 " novalidate>
+                    <div class="col-6">
+                      <label for="validationCustomUsername" class="form-label">e-mail адресс</label>
+                      <div class="input-group has-validation">
+                        <span class="input-group-text" id="inputGroupPrepend">@</span>
+                        <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                        <div class="invalid-feedback">
+                          Пожалуйста, выберите имя пользователя.
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                  <form class="row g-3 needs-validation mt-3 mb-3" novalidate>
+    
+                    <div class="col-6">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                        <label class="form-check-label" for="invalidCheck">
+                          Примите условия и соглашения
+                        </label>
+                        <div class="invalid-feedback">
+                          Вы должны принять перед отправкой.
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                  <form class="row g-3 needs-validation mt-3 mb-3" novalidate>
+                    <div class="col-6">
+                      <button class="btn btn-primary" type="submit">Отправить форму</button>
+                    </div>
+                  </form>
+                  
+                </div>
+                  
+      </div>
+      
+    
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+
+    
+  </body>
+</html>
